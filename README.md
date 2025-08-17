@@ -91,10 +91,11 @@ This fraud detection system demonstrates:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
-**Manish** - AI/ML Engineer Intern
+**Manish** - AI/ML Engineer & Data Scientist
 - **GitHub**: [@Manish0729](https://github.com/Manish0729)
 - **Project**: Credit Card Fraud Detection System
-- **Skills**: Python, Machine Learning, Data Science, Fraud Detection
+- **Skills**: Python, Machine Learning, Data Science, Fraud Detection, Feature Engineering
+- **Expertise**: Class Imbalance Handling, Model Evaluation, Production ML Pipelines
 
 ## ⭐ Support
 If you find this project helpful, please give it a ⭐ star on GitHub!
