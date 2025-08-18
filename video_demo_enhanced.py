@@ -170,59 +170,29 @@ def show_business_impact():
     print("   • Total Annual Savings: $3.3M+")
     print()
 
-def show_technical_achievements():
-    """Show technical achievements and skills demonstrated."""
-    print("🔬 STEP 6: TECHNICAL ACHIEVEMENTS & SKILLS DEMONSTRATED")
+def show_technical_summary():
+    """Show technical summary of the project."""
+    print("🔬 STEP 6: PROJECT SUMMARY")
     print("=" * 60)
     print()
     
-    achievements = [
-        "✅ End-to-End ML Pipeline Development",
-        "✅ Advanced Feature Engineering (16 engineered features)",
-        "✅ Class Imbalance Handling (SMOTE, Undersampling)",
-        "✅ Model Selection & Hyperparameter Tuning",
-        "✅ Comprehensive Model Evaluation (5+ metrics)",
-        "✅ Production-Ready Code Architecture",
-        "✅ Professional Documentation & Visualization",
-        "✅ Version Control & Project Management",
-        "✅ Real-World Data Processing (1.3M+ records)",
-        "✅ Business Impact Analysis & Cost Estimation"
+    summary_items = [
+        "📊 Data Processing: 1.3M+ credit card transactions",
+        "🔧 Feature Engineering: 16 features created",
+        "⚖️  Class Balance: SMOTE applied for imbalanced data",
+        "🤖 Models: Logistic Regression, Random Forest, XGBoost",
+        "📈 Evaluation: Multiple metrics for model assessment",
+        "💾 Code: Modular structure with documentation",
+        "🔄 Management: Version control with Git"
     ]
     
-    for achievement in achievements:
-        print(f"   {achievement}")
-        time.sleep(0.2)
+    for item in summary_items:
+        print(f"   {item}")
+        time.sleep(0.3)
     
     print()
 
-def show_portfolio_benefits():
-    """Show how this project benefits the portfolio."""
-    print("🎯 STEP 7: PORTFOLIO IMPACT & CAREER BENEFITS")
-    print("=" * 60)
-    print()
-    
-    print("🚀 THIS PROJECT DEMONSTRATES:")
-    print("   • Real-world problem-solving skills")
-    print("   • Production ML development experience")
-    print("   • Business impact understanding")
-    print("   • Professional code quality")
-    print("   • Advanced ML techniques mastery")
-    print()
-    
-    print("💼 PROJECT VALUE:")
-    print("   • Demonstrates advanced ML implementation skills")
-    print("   • Shows real-world problem-solving capabilities")
-    print("   • Proves production-ready development experience")
-    print("   • Validates end-to-end system design expertise")
-    print()
-    
-    print("🎓 SKILLS VALIDATED:")
-    print("   • Python Programming (Advanced)")
-    print("   • Machine Learning (Production Level)")
-    print("   • Data Science (Real-World Application)")
-    print("   • Software Engineering (Best Practices)")
-    print("   • Business Intelligence (Impact Analysis)")
-    print()
+
 
 def main():
     """Main demo function."""
@@ -245,24 +215,21 @@ def main():
     show_business_impact()
     time.sleep(1)
     
-    show_technical_achievements()
-    time.sleep(1)
-    
-    show_portfolio_benefits()
+    show_technical_summary()
     time.sleep(1)
     
     # Final message
     print("=" * 100)
-    print("🎉 PROJECT DEMONSTRATION COMPLETE!")
+    print("📊 ANALYSIS COMPLETE")
     print("=" * 100)
-    print("📁 Complete Project: https://github.com/Manish0729/credit-card-fraud-detection")
-    print("📊 Achieved Results: 91.16% F1-Score, 99.70% AUC-ROC")
-    print("🏆 Project Status: A+ Excellence - Production Ready")
-    print("🔬 Technical Achievement: End-to-End ML Pipeline Built")
+    print("📁 Project Repository: https://github.com/Manish0729/credit-card-fraud-detection")
+    print("🎯 Final Results: 91.16% F1-Score, 99.70% AUC-ROC")
+    print("📋 Project Type: Fraud Detection System")
+    print("🗓️ Implementation: End-to-End Machine Learning Pipeline")
     print("=" * 100)
     print()
-    print("🎬 Demo Complete - This is my original work and implementation")
-    print("💻 Built from scratch using real-world fraud detection dataset")
+    print("Thank you for viewing this project demonstration.")
+    print("This represents my work on fraud detection using machine learning.")
 
 if __name__ == "__main__":
     main() 
